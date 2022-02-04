@@ -82,13 +82,13 @@ section {
 }
 
 .laptop-details-button{
-  position: absolute;
-  bottom: 50px;
+  position: relative;
+  top: 400px;
   left: 50%;
-  transform: translate3d(-50%, 0, 100px);
+  transform: translate3d(-50%, 0, 80px);
   opacity: 0;
   transition: 0.5s;
-  z-index: 2;
+  z-index: 3;
 }
 
 .laptop-img{
