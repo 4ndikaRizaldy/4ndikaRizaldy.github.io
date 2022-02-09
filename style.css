@@ -18,8 +18,8 @@ section {
   padding: 0;
 }
 
-/* My Laptop Section */
-.laptop-box{
+/* My book Section */
+.book-box{
   position: relative;
   background-color: #6C757D;
   border-radius: 10px;
@@ -28,7 +28,7 @@ section {
 
 }
 
-.laptop-box::before{
+.book-box::before{
   content: 'MY';
   position: absolute;
   color: #ffffff;
@@ -42,12 +42,12 @@ section {
   transition: 0.5s;
 }
 
-.laptop-box:hover::before{
+.book-box:hover::before{
   opacity: 0.2;
 }
 
-.laptop-box::after{
-  content: 'LAPTOP';
+.book-box::after{
+  content: 'BOOK';
   position: absolute;
   color: #ffffff;
   font-size: 4em;
@@ -60,11 +60,11 @@ section {
   transition: 0.5s;
 }
 
-.laptop-box:hover::after{
+.book-box:hover::after{
   opacity: 0.2;
 }
 
-.laptop-name{
+.book-name{
   position: absolute;
   top: 50px;
   width: 100%;
@@ -76,12 +76,12 @@ section {
   transition: 0.5s;
 }
 
-.laptop-box:hover .laptop-name{
+.book-box:hover .book-name{
   top: 20px;
   opacity: 1;
 }
 
-.laptop-details-button{
+.book-details-button{
   position: relative;
   top: 400px;
   left: 50%;
@@ -91,7 +91,7 @@ section {
   z-index: 3;
 }
 
-.laptop-img{
+.book-img{
   position: absolute;
   top: 52%;
   left: 50%;
@@ -101,6 +101,6 @@ section {
   z-index: 2;
 }
 
-.laptop-box:hover .laptop-img{
+.book-box:hover .book-img{
   transform: translate3d(-50%, -52%, 100px) rotate(-5deg) scale(1.2);
 }
